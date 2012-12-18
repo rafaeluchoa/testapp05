@@ -1,0 +1,52 @@
+http://stackoverflow.com/questions/9114762/unobtrusive-aop-with-spring-net
+
+
+var viewData = filterContext.Controller.ViewData;
+
+        if (!viewData.ModelState.IsValid)
+        {
+            filterContext.Result = new ViewResult
+            {
+                ViewData = viewData,
+                TempData = filterContext.Controller.TempData
+            };
+        }
+
+		
+		
+		 var view = html.ViewContext.View as RazorView;
+
+            // TODO: Create the ViewPathResolver.
+            if (view == null)
+            {
+                throw new System.NotImplementedException("ViewPathResolver only for RazorEngine.");
+            }
+		
+response 
+{
+	messages[];
+	html: "";
+}		
+
+
+<input type="hidden" name="X-Requested-With" value="XMLHttpRequest" />
+
+
+$('#myForm1').ajaxForm({data:{"X_REQUESTED_WITH":"XMLHttpRequest"}});
+
+
+if (Request.IsAjaxRequest())
+        {
+            return Json(new { Message = "Logged In" } );
+        }
+        else
+        {
+            return View();
+        }
+		
+		
+		$.ajaxSetup({
+      
+});
+		
+

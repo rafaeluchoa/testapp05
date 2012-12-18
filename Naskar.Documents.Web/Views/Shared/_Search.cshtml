@@ -1,0 +1,41 @@
+﻿@{
+    var searchId = ViewBag.SearchId;
+    Layout = Request.IsAjaxRequest() ? "~/Views/Shared/_Layout.cshtml" : "~/Views/Shared/_Template.cshtml";
+}
+
+<div id="@(searchId)">
+    @using (Html.BeginForm()) 
+    {
+        <div>
+            @Html.ValidationSummary(true)
+        </div>
+
+        <div>
+            @RenderSection("Fields")
+        </div>
+
+        <div style="clear: both">
+            @RenderSection("SearchActions")
+        </div>
+
+        <div>
+            <div style="clear: both">
+                @RenderSection("Actions", false)
+            </div>
+
+            <div>
+                @RenderSection("Grid", false)
+            </div>
+
+            <div style="clear: both">
+                @RenderSection("GridActions", false)
+            </div>
+
+        </div>
+
+        @RenderBody()
+    }
+
+</div>
+
+

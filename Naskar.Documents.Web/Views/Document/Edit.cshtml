@@ -1,0 +1,30 @@
+﻿@using Naskar.Documents.Web.Models
+@using Naskar.Architecture.Web.Extensions.AjaxBind
+@using Naskar.Architecture.Web.Extensions
+
+@model DocumentEntityModel
+@{
+    const string EditId = "document-edit";
+    ViewBag.Title = "Documents Edit";
+
+    ViewBag.EditId = EditId;
+    Layout = "~/Views/Shared/_Edit.cshtml";
+}
+
+@section Fields {
+
+    @Html.HiddenFor(x => x.Value.Id)
+    @Html.HiddenFor(x => x.Value.Version)
+
+    @Html.Input(x => x.Value.Name, label: "Name", required: true)
+
+    @Html.Input(x => x.Value.PaidValue, label: "Paid Value")
+}
+
+@section EditActions {
+    @Html.Button("save-button", "Save", Url.Action("Save"), EditId)
+
+    <!-- TODO: colocar mensagem de cancelamento -->
+    @Html.ActionLink("Cancelar", "Index")
+}
+

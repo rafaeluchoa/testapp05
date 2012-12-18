@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects xmlns="http://www.springframework.net"
+				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xmlns:tx="http://www.springframework.net/tx"
+				 xmlns:db="http://www.springframework.net/database"
+				 xmlns:aop="http://www.springframework.net/aop"
+				 xsi:schemaLocation="
+				 http://www.springframework.net http://www.springframework.net/schema/objects/spring-objects.xsd
+				 http://www.springframework.net/schema/tx http://www.springframework.net/schema/tx/spring-tx.xsd
+				 http://www.springframework.net/schema/db http://www.springframework.net/schema/db/spring-database.xsd 
+				 http://www.springframework.net/schema/aop http://www.springframework.net/schema/aop/spring-aop.xsd
+				 ">
+
+	<!-- Definição das camadas -->
+	<object id="CamadaApresentacao" type="Spring.Aop.Support.SdkRegularExpressionMethodPointcut, Spring.Aop">
+		<property name="patterns">
+			<list>
+				<value>Naskar\..*Controller\..*</value>
+			</list>
+		</property>
+	</object>
+
+	<object id="CamadaNegocio" type="Spring.Aop.Support.SdkRegularExpressionMethodPointcut, Spring.Aop">
+		<property name="patterns">
+			<list>
+				<value>Naskar\..*Service\..*</value>
+			</list>
+		</property>
+	</object>
+
+	<!--
+	<object id="CamadaIntegracao" type="Spring.Aop.Support.SdkRegularExpressionMethodPointcut, Spring.Aop">
+		<property name="patterns">
+			<list>
+				<value>.*\.Infrastructure\..*</value>
+			</list>
+		</property>
+	</object>
+	-->
+
+	<!-- carrega em variaveis ${} os valores de uma section do arquivo .config -->
+	<object name="AppConfigPropertyHolder" type="Spring.Objects.Factory.Config.PropertyPlaceholderConfigurer, Spring.Core">
+		<property name="configSections" value="databaseSettings"/>
+	</object>
+
+	<object id="SessionFactory" type="Naskar.Architecture.Data.Hibernate.FluentNhibernateLocalSessionFactoryObject, Naskar.Architecture">
+		<property name="FluentMappingAssemblies">
+			<list>
+				<value>Naskar.Architecture</value>
+				<value>Naskar.Documents.Impl</value>
+			</list>
+		</property>
+
+		<property name="ExposeTransactionAwareSessionFactory" value="true" />
+		
+		<property name="HibernateProperties">
+
+			<dictionary>
+				<entry key="show_sql" value="true"/>
+				<entry key="hbm2ddl.auto" value="update"/>
+
+				<entry key="connection.provider" value="${databaseSettings.hibernate.connection.provider}"/>
+				<entry key="dialect" value="${databaseSettings.hibernate.dialect}"/>
+				<entry key="connection.driver_class" value="${databaseSettings.hibernate.connection.driver_class}"/>
+				<entry key="connection.connection_string" value="${databaseSettings.hibernate.connection.connection_string}"/>        
+			</dictionary>
+
+		</property>
+	</object>
+
+	<!-- Gerente de transação -->
+	<object name="TransactionManager" type="Spring.Data.NHibernate.HibernateTransactionManager, Spring.Data.NHibernate32">
+		<property name="SessionFactory" ref="SessionFactory"/>
+	</object>
+
+	<!-- Quais os tipos de propagação para cada gerente ? -->
+	<tx:advice id="TxAdvice" transaction-manager="TransactionManager">
+		<tx:attributes>
+			<tx:method name="*" propagation="Required" />
+		</tx:attributes>
+	</tx:advice>
+
+	<!-- Em qual camada será aplicado ? -->
+	<aop:config>
+		<aop:advisor advice-ref="TxAdvice" pointcut-ref="CamadaNegocio" />
+	</aop:config>
+  
+  <!-- Validation messages para os controllers -->
+  <!--
+  <object id="ValidateModelStateInterceptor" type="Naskar.Architecture.Web.Interceptors.ValidateModelStateInterceptor, Naskar.Architecture.Web">
+  </object>
+
+  <object type="Spring.Aop.Framework.AutoProxy.PointcutFilteringAutoProxyCreator, Spring.Aop">
+    <property name="ProxyTargetType" value="true" />
+    <property name="Pointcut" ref="CamadaApresentacao" />
+    <property name="InterceptorNames">
+      <list>
+        <value>ValidateModelStateInterceptor</value>
+      </list>
+    </property>
+  </object>
+  -->
+
+  <!--
+  <object type="Naskar.Documents.Web.Controllers.DocumentController, Naskar.Documents.Web" singleton="false">
+    <property name="DocumentService" ref="DocumentService" />
+  </object>
+  
+
+  <object id="ValidateModelStateAdvisor" type="Spring.Aop.Support.DefaultPointcutAdvisor, Spring.Aop">
+    <property name="Pointcut" ref="CamadaApresentacao" />
+    <property name="Advice" ref="ValidateModelStateInterceptor"/>
+  </object>
+
+  <object type="Spring.Aop.Framework.AutoProxy.InheritanceBasedAopConfigurer, Spring.Aop">
+    <property name="ObjectNames">
+      <list>
+        <value>*Controller*</value>
+        <value>*Controller#*</value>
+      </list>
+    </property>
+    <property name="InterceptorNames">
+      <list>
+        <value>ValidateModelStateAdvisor</value>
+      </list>
+    </property>
+  </object>
+  -->
+    
+</objects>

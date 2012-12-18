@@ -1,0 +1,14 @@
+﻿@using Naskar.Architecture.Web.Extensions.AjaxBind
+@using Naskar.Architecture.Web.Extensions
+
+@model AjaxBindOptions
+   
+@using(Html.BeginScripts()) {
+    <script type="text/javascript">
+        $(function () {
+            $('#@(Model.Id)').bind('@(Model.EventName)', function () {
+                CallAjaxBind('#@(Model.Id)', '@(Model.URL)', '#@(Model.UpdateId)');
+            });
+        });
+    </script>
+}

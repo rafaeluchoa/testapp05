@@ -1,0 +1,696 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E24F2096-01D4-4BE5-83F4-DBEA1A32115E/f:AutoRegistrationExtension.cs" caret="451" fromTop="15" />
+      <File id="E24F2096-01D4-4BE5-83F4-DBEA1A32115E/f:If.cs" caret="12" fromTop="0" />
+      <File id="E24F2096-01D4-4BE5-83F4-DBEA1A32115E/f:Then.cs" caret="205" fromTop="9" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Shared/f:_AjaxBind.cshtml" caret="0" fromTop="0" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Scripts/f:naskar-ajax-bind.js" caret="0" fromTop="0" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Shared/f:_Field.cshtml" caret="0" fromTop="0" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Shared/f:_Edit.cshtml" caret="302" fromTop="12" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/f:spring-naskar-documents.xml" caret="4820" fromTop="31" />
+      <File id="EC17E442-6AFB-494B-AE4A-2A5BD6BA9FAD/f:TestAutoRegistration.cs" caret="2091" fromTop="23" />
+      <File id="C0507117-511B-44DB-A2FA-E3A462CEB246/d:Unity/f:IUnityAwareContext.cs" caret="187" fromTop="9" />
+      <File id="C0507117-511B-44DB-A2FA-E3A462CEB246/d:Unity/f:DefaultUnityAwareContext.cs" caret="222" fromTop="9" />
+      <File id="C0507117-511B-44DB-A2FA-E3A462CEB246/d:Unity/f:UnityFactory.cs" caret="1215" fromTop="23" />
+      <File id="0459E68E-9C3F-4F89-855E-5FE366683DC9/d:Validators/f:DocumentValidator.cs" caret="358" fromTop="13" />
+      <File id="C0507117-511B-44DB-A2FA-E3A462CEB246/d:Unity/f:UnityRegistrationExtensions.cs" caret="266" fromTop="8" />
+      <File id="C0507117-511B-44DB-A2FA-E3A462CEB246/d:Unity/f:ByExampleUnityAware.cs" caret="789" fromTop="23" />
+      <File id="C0507117-511B-44DB-A2FA-E3A462CEB246/d:Unity/f:IUnityAware.cs" caret="150" fromTop="7" />
+      <File id="C0507117-511B-44DB-A2FA-E3A462CEB246/d:Unity/f:UnityNHSessionFactory.cs" caret="386" fromTop="12" />
+      <File id="AFB60A8E-FECF-49E7-98C9-7FD46E64E2C7/f:Mapping.cs" caret="2639" fromTop="29" />
+      <File id="C0507117-511B-44DB-A2FA-E3A462CEB246/d:Repository/f:Repository.cs" caret="1935" fromTop="13" />
+      <File id="C25BD25C-E141-4E3E-89CD-6F47B306FA7E/d:Data/f:PageContext.cs" caret="56" fromTop="2" />
+      <File id="0459E68E-9C3F-4F89-855E-5FE366683DC9/d:Application/f:DocumentService.cs" caret="771" fromTop="15" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="346" fromTop="11" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Controllers/f:DocumentController.cs" caret="692" fromTop="12" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Edit.cshtml" caret="766" fromTop="29" />
+      <File id="0459E68E-9C3F-4F89-855E-5FE366683DC9/d:Specifications/f:DocumentByNameSpec.cs" caret="781" fromTop="26" />
+      <File id="C25BD25C-E141-4E3E-89CD-6F47B306FA7E/d:Data/f:PagedList.cs" caret="0" fromTop="0" />
+      <File id="1D96AFDD-3A00-4E50-8C38-E8E5D6CE3DC0/d:Extensions/d:AjaxBind/f:AjaxBindExtensions.cs" caret="138" fromTop="6" />
+      <File id="E24F2096-01D4-4BE5-83F4-DBEA1A32115E/f:AutoRegistration.cs" caret="33" fromTop="0" />
+      <File id="1D96AFDD-3A00-4E50-8C38-E8E5D6CE3DC0/d:Models/f:PagedListModel.cs" caret="95" fromTop="6" />
+      <File id="C25BD25C-E141-4E3E-89CD-6F47B306FA7E/d:Data/d:Impl/f:Repository.cs" caret="929" fromTop="1" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Controllers/f:DocumentController.cs" caret="1931" fromTop="21" />
+      <File id="0459E68E-9C3F-4F89-855E-5FE366683DC9/d:Application/f:DocumentService.cs" caret="1518" fromTop="31" />
+      <File id="0459E68E-9C3F-4F89-855E-5FE366683DC9/d:Application/f:DocumentService.cs" caret="1599" fromTop="31" />
+      <File id="7377AE7A-9DE4-408F-9D8E-ECB9737A047C/d:Application/f:IDocumentService.cs" caret="448" fromTop="16" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="283" fromTop="7" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="283" fromTop="1" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="1571" fromTop="18" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="1571" fromTop="18" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="1319" fromTop="11" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="1319" fromTop="5" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="283" fromTop="6" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="283" fromTop="0" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Document/f:Search.cshtml" caret="1320" fromTop="26" />
+      <File id="C25BD25C-E141-4E3E-89CD-6F47B306FA7E/d:Data/d:Impl/f:Repository.cs" caret="1707" fromTop="17" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Views/d:Shared/f:_Template.cshtml" caret="133" fromTop="1" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Controllers/f:DocumentController.cs" caret="1245" fromTop="5" />
+      <File id="3C016673-D396-4F74-9734-1328E5312DF9/d:Controllers/f:DocumentController.cs" caret="1698" fromTop="22" />
+      <File id="1D96AFDD-3A00-4E50-8C38-E8E5D6CE3DC0/d:Spring/f:WebSpringAutoRegistration.cs" caret="1171" fromTop="31" />
+      <File id="E24F2096-01D4-4BE5-83F4-DBEA1A32115E/f:FluentRegistration.cs" caret="896" fromTop="28" />
+      <File id="0459E68E-9C3F-4F89-855E-5FE366683DC9/d:Validators/f:DocumentValidator.cs" caret="358" fromTop="13" />
+      <File id="935690C7-A462-42F9-890D-8183651978C8/f:TODO.txt/s:..?TODO.txt" caret="66" fromTop="3" />
+      <File id="E24F2096-01D4-4BE5-83F4-DBEA1A32115E/f:AutoRegistration.cs" caret="607" fromTop="8" />
+      <File id="E24F2096-01D4-4BE5-83F4-DBEA1A32115E/f:AutoRegistration.cs" caret="2780" fromTop="3" />
+      <File id="EC17E442-6AFB-494B-AE4A-2A5BD6BA9FAD/f:TestAutoRegistration.cs" caret="2595" fromTop="2" />
+      <File id="EC17E442-6AFB-494B-AE4A-2A5BD6BA9FAD/f:TestAutoRegistration.cs" caret="2179" fromTop="4" />
+      <File id="EC17E442-6AFB-494B-AE4A-2A5BD6BA9FAD/f:TestAutoRegistration.cs" caret="43" fromTop="2" />
+      <File id="EC17E442-6AFB-494B-AE4A-2A5BD6BA9FAD/f:TestAutoRegistration.cs" caret="255" fromTop="12" />
+      <File id="C25BD25C-E141-4E3E-89CD-6F47B306FA7E/d:Data/d:Impl/f:Repository.cs" caret="1205" fromTop="12" />
+      <File id="C25BD25C-E141-4E3E-89CD-6F47B306FA7E/d:Data/d:Impl/f:Repository.cs" caret="929" fromTop="1" />
+      <File id="0459E68E-9C3F-4F89-855E-5FE366683DC9/d:Specifications/f:DocumentByNameSpec.cs" caret="642" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="1370" />
+      <Item value="Document`0" priority="159" />
+      <Item value="string" priority="633" />
+      <Item value="Search" priority="93" />
+      <Item value="private" priority="351" />
+      <Item value="int" priority="95" />
+      <Item value="PageContext" priority="61" />
+      <Item value="DocumentListModel`0" priority="63" />
+      <Item value="pageContext" priority="258" />
+      <Item value="NonAction" priority="31" />
+      <Item value="void" priority="255" />
+      <Item value="ActionResult`0" priority="31" />
+      <Item value="return" priority="191" />
+      <Item value="Search`0" priority="31" />
+      <Item value="new" priority="832" />
+      <Item value="DocumentListModel" priority="28" />
+      <Item value="model" priority="157" />
+      <Item value="Do" priority="26" />
+      <Item value="vo" priority="63" />
+      <Item value="VO" priority="31" />
+      <Item value="DocumentListVO" priority="28" />
+      <Item value="Documents" priority="31" />
+      <Item value="List&lt;Document&gt;" priority="28" />
+      <Item value="internal" priority="30" />
+      <Item value="interface" priority="61" />
+      <Item value="QueryOverSpecification" priority="28" />
+      <Item value="x" priority="1177" />
+      <Item value="y" priority="31" />
+      <Item value="NoRestrictionsSpecification&lt;Document&gt;" priority="29" />
+      <Item value="if" priority="255" />
+      <Item value="spec" priority="31" />
+      <Item value="ByName" priority="31" />
+      <Item value="Repository" priority="64" />
+      <Item value="Entity`0" priority="94" />
+      <Item value="SessionFactory" priority="26" />
+      <Item value="IPageSpec`0" priority="31" />
+      <Item value="where" priority="95" />
+      <Item value="T`0" priority="63" />
+      <Item value="Action" priority="127" />
+      <Item value="a" priority="31" />
+      <Item value="QueryOverSpecification&lt;T&gt;" priority="28" />
+      <Item value="var" priority="671" />
+      <Item value="firstResult" priority="63" />
+      <Item value="maxResults" priority="63" />
+      <Item value="EntityMap`0" priority="31" />
+      <Item value="Map`0" priority="127" />
+      <Item value="Version`0" priority="31" />
+      <Item value="DocumentMap`0" priority="31" />
+      <Item value="Html" priority="671" />
+      <Item value="Model" priority="219" />
+      <Item value="b" priority="31" />
+      <Item value="base" priority="31" />
+      <Item value="char" priority="63" />
+      <Item value="IList" priority="95" />
+      <Item value="lista" priority="31" />
+      <Item value="Value" priority="90" />
+      <Item value="foreach" priority="223" />
+      <Item value="NewsStyleUriParser`0" priority="31" />
+      <Item value="ListModel&lt;Document&gt;" priority="28" />
+      <Item value="c" priority="127" />
+      <Item value="AjaxBind" priority="31" />
+      <Item value="html" priority="159" />
+      <Item value="id" priority="63" />
+      <Item value="url" priority="31" />
+      <Item value="updateId" priority="31" />
+      <Item value="XPathBinder`0" priority="31" />
+      <Item value="using" priority="90" />
+      <Item value="Expressions" priority="20" />
+      <Item value="this" priority="249" />
+      <Item value="Url" priority="31" />
+      <Item value="Specification" priority="31" />
+      <Item value="SpringAutoConfiguration`0" priority="26" />
+      <Item value="typeof" priority="127" />
+      <Item value="ToString`0" priority="31" />
+      <Item value="t" priority="31" />
+      <Item value="static" priority="95" />
+      <Item value="AopAlliance" priority="31" />
+      <Item value="AssemblyExtension`0" priority="31" />
+      <Item value="DependencyResolver`0" priority="63" />
+      <Item value="SpringMvcDependencyResolver" priority="57" />
+      <Item value="applicationContext" priority="96" />
+      <Item value="SpringMvcApplication`0" priority="31" />
+      <Item value="value" priority="159" />
+      <Item value="IConfigurableApplicationContext`0" priority="64" />
+      <Item value="config" priority="97" />
+      <Item value="ctx" priority="127" />
+      <Item value="GenericApplicationContext" priority="118" />
+      <Item value="Spring" priority="30" />
+      <Item value="GenericApplicationContextExtensions`0" priority="26" />
+      <Item value="ApplicationContextAwareProcessor`0" priority="31" />
+      <Item value="Iesi" priority="31" />
+      <Item value="as" priority="63" />
+      <Item value="IAutoRegistration`0" priority="31" />
+      <Item value="IApplicationContext`0" priority="31" />
+      <Item value="_assemblyFilters" priority="31" />
+      <Item value="assemblyFilter" priority="32" />
+      <Item value="typeFilter" priority="65" />
+      <Item value="Include`0" priority="63" />
+      <Item value="_defaultAction" priority="32" />
+      <Item value="AppDomain`0" priority="30" />
+      <Item value="type" priority="255" />
+      <Item value="_registrations" priority="31" />
+      <Item value="RegistrationEntry" priority="28" />
+      <Item value="IFluentRegistration`0" priority="31" />
+      <Item value="FluentRegistration" priority="29" />
+      <Item value="Type`0" priority="63" />
+      <Item value="context" priority="63" />
+      <Item value="IFoo`0" priority="31" />
+      <Item value="Then`0" priority="31" />
+      <Item value="_context" priority="31" />
+      <Item value="objectDefinition" priority="64" />
+      <Item value="GenericObjectDefinition" priority="58" />
+      <Item value="try" priority="31" />
+      <Item value="e" priority="64" />
+      <Item value="autowireMode" priority="31" />
+      <Item value="AutowireUtils`0" priority="63" />
+      <Item value="foo" priority="63" />
+      <Item value="IRegistrator`0" priority="127" />
+      <Item value="FluentRegistration`0" priority="31" />
+      <Item value="ObjectDefinitionBuilder`0" priority="63" />
+      <Item value="AbstractObjectDefinition`0" priority="31" />
+      <Item value="ObservableCollection&lt;Action&lt;Type,AbstractObjectDefinition&gt;&gt;" priority="28" />
+      <Item value="GenericApplicationContext`0" priority="31" />
+      <Item value="action" priority="63" />
+      <Item value="actions" priority="31" />
+      <Item value="builder" priority="287" />
+      <Item value="name" priority="63" />
+      <Item value="MTAThreadAttribute`0" priority="31" />
+      <Item value="nameResolver" priority="32" />
+      <Item value="_nameResolver" priority="31" />
+      <Item value="If`0" priority="127" />
+      <Item value="XmlApplicationContext`0" priority="159" />
+      <Item value="bar" priority="31" />
+      <Item value="for" priority="31" />
+      <Item value="SimpleAutowireCandidateResolver`0" priority="26" />
+      <Item value="bindingAttr" priority="31" />
+      <Item value="property" priority="64" />
+      <Item value="#region" priority="31" />
+      <Item value="#endregion" priority="31" />
+      <Item value="IRepository`0" priority="64" />
+      <Item value="IController`0" priority="31" />
+      <Item value="AbstractApplicationContext`0" priority="31" />
+      <Item value="Namespaces" priority="31" />
+      <Item value="false" priority="31" />
+      <Item value="tt" priority="31" />
+      <Item value="InjectAttribute`0" priority="63" />
+      <Item value="Name" priority="63" />
+      <Item value="_actions" priority="31" />
+      <Item value="filterProperty" priority="31" />
+      <Item value="PropertyInfo`0" priority="31" />
+      <Item value="propertyInfo" priority="32" />
+      <Item value="class" priority="92" />
+      <Item value="nhibernateConfig" priority="31" />
+      <Item value="fluentConfig" priority="63" />
+      <Item value="override" priority="31" />
+      <Item value="true" priority="31" />
+      <Item value="_sessionFactory" priority="32" />
+      <Item value="ISessionFactory`0" priority="31" />
+      <Item value="nhconfig" priority="63" />
+      <Item value="ConfigFilenames" priority="31" />
+      <Item value="CurrentSession" priority="64" />
+      <Item value="object" priority="95" />
+      <Item value="RenderBody`0" priority="56" />
+      <Item value="MasterPage`0" priority="31" />
+      <Item value="attributes" priority="63" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="28" />
+      <Item value="RedirectToAction`0" priority="31" />
+      <Item value="DocumentService" priority="95" />
+      <Item value="entityModel" priority="257" />
+      <Item value="DocumentEntityModel`0" priority="31" />
+      <Item value="long" priority="95" />
+      <Item value="TEntity`0" priority="31" />
+      <Item value="entity" priority="63" />
+      <Item value="HttpNotFound`0" priority="31" />
+      <Item value="InsertInterno`0" priority="26" />
+      <Item value="DocumentValidator`0" priority="31" />
+      <Item value="RuleFor`1" priority="31" />
+      <Item value="InputBuilder" priority="28" />
+      <Item value="PropertyModel" priority="89" />
+      <Item value="Boolean`0" priority="31" />
+      <Item value="bool" priority="159" />
+      <Item value="expression" priority="128" />
+      <Item value="TPropertyType`0" priority="31" />
+      <Item value="ExpressionHelper`0" priority="96" />
+      <Item value="Layout" priority="95" />
+      <Item value="~" priority="53" />
+      <Item value="Views" priority="45" />
+      <Item value="Shared" priority="45" />
+      <Item value="_Form.cshtml" priority="22" />
+      <Item value="ViewBag" priority="31" />
+      <Item value="RenderSection`0" priority="56" />
+      <Item value="section" priority="179" />
+      <Item value="_Search.cshtml" priority="22" />
+      <Item value="IsSectionDefined`0" priority="26" />
+      <Item value="div" priority="29" />
+      <Item value="ClientDataTypeModelValidatorProvider`0" priority="31" />
+      <Item value="Func" priority="31" />
+      <Item value="TProperty`0" priority="31" />
+      <Item value="Required" priority="64" />
+      <Item value="DataBinder`0" priority="32" />
+      <Item value="Type" priority="32" />
+      <Item value="Field.cshtml" priority="26" />
+      <Item value="Label" priority="32" />
+      <Item value="LabelExpression`0" priority="31" />
+      <Item value="required" priority="59" />
+      <Item value="label" priority="31" />
+      <Item value="Request" priority="31" />
+      <Item value="IDReferencePropertyAttribute`0" priority="63" />
+      <Item value="RouteValueDictionary" priority="29" />
+      <Item value="String`0" priority="31" />
+      <Item value="default" priority="63" />
+      <Item value="else" priority="31" />
+      <Item value="listModel" priority="63" />
+      <Item value="documents" priority="32" />
+      <Item value="Remove" priority="32" />
+      <Item value="Session" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Documents.Application.IDocumentService">
+      <Item value="ListByName`0" priority="26" />
+      <Item value="Insert`0" priority="26" />
+      <Item value="Get`0" priority="26" />
+      <Item value="Modify`0" priority="27" />
+      <Item value="Remove`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Documents.Web.Models.DocumentListModel">
+      <Item value="Name" priority="53" />
+      <Item value="Documents" priority="107" />
+      <Item value="VO" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Documents.Application.VO.DocumentListVO">
+      <Item value="Name" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.IQueryOver`2">
+      <Item value="And`0" priority="26" />
+      <Item value="Where`0" priority="27" />
+      <Item value="WhereRestrictionOn`0" priority="22" />
+      <Item value="Take`0" priority="26" />
+      <Item value="Skip`0" priority="22" />
+      <Item value="OrderBy`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Documents.Domain.Document">
+      <Item value="Name" priority="213" />
+      <Item value="Id" priority="108" />
+      <Item value="Version" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Criterion.Lambda.IQueryOverRestrictionBuilder`2">
+      <Item value="IsInsensitiveLike`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="49" />
+      <Item value="Empty" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Documents.Specifications.IDocumentByNameSpec">
+      <Item value="By`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISessionFactory">
+      <Item value="GetCurrentSession`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Data.IRepository">
+      <Item value="Find`1" priority="82" />
+      <Item value="Add`1" priority="26" />
+      <Item value="Modify`1" priority="27" />
+      <Item value="Remove`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Data.PageContext">
+      <Item value="RowsByPage" priority="26" />
+      <Item value="CurrentePage" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="GetValueOrDefault`0" priority="103" />
+      <Item value="ToString`0" priority="83" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Specification.IPageSpec">
+      <Item value="By`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Entity">
+      <Item value="Id" priority="26" />
+      <Item value="Version" priority="26" />
+      <Item value="Created" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="div" priority="51" />
+      <Item value="id" priority="24" />
+      <Item value="document-search" priority="11" />
+      <Item value="Expressions" priority="4" />
+      <Item value="span" priority="11" />
+      <Item value="style" priority="12" />
+      <Item value="display" priority="8" />
+      <Item value="none" priority="8" />
+      <Item value="document-div" priority="5" />
+      <Item value="br" priority="5" />
+      <Item value="clear" priority="8" />
+      <Item value="both" priority="4" />
+      <Item value="Fields" priority="4" />
+      <Item value="Actions" priority="15" />
+      <Item value="Grid" priority="5" />
+      <Item value="EditActions" priority="5" />
+      <Item value="GridActions" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="RazorTransitionCompletionContext">
+      <Item value="Html" priority="127" />
+      <Item value="using" priority="17" />
+      <Item value="this" priority="29" />
+      <Item value="Model" priority="15" />
+      <Item value="model" priority="7" />
+      <Item value="RenderBody`0" priority="13" />
+      <Item value="RenderSection`0" priority="13" />
+      <Item value="section" priority="51" />
+      <Item value="IsSectionDefined`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcContrib.UI.Grid.Syntax.IGrid`1">
+      <Item value="Columns`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcContrib.UI.Grid.ColumnBuilder`1">
+      <Item value="For`0" priority="162" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Web.ListItemModel`1">
+      <Item value="Selected" priority="49" />
+      <Item value="Value" priority="107" />
+      <Item value="Index" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="InputButtons`0" priority="110" />
+      <Item value="AjaxBind`1" priority="26" />
+      <Item value="TextBox`0" priority="22" />
+      <Item value="TextBoxFor`2" priority="53" />
+      <Item value="ValidationMessage`0" priority="26" />
+      <Item value="Encode`0" priority="27" />
+      <Item value="RenderPartial`0" priority="53" />
+      <Item value="BeginForm`0" priority="26" />
+      <Item value="ActionLink`0" priority="155" />
+      <Item value="ValidationSummary`0" priority="26" />
+      <Item value="ViewContext" priority="26" />
+      <Item value="RenderScripts`0" priority="53" />
+      <Item value="Action`0" priority="22" />
+      <Item value="HiddenFor`2" priority="53" />
+      <Item value="CheckBox`0" priority="26" />
+      <Item value="NameFor`2" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcContrib.UI.Grid.IGridColumn`1">
+      <Item value="Named`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ASP._Page_Views_Document_Search_cshtml">
+      <Item value="Button`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.MvcHtmlString">
+      <Item value="ToString`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.UrlHelper">
+      <Item value="Action`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.DependencyResolver">
+      <Item value="SetResolver`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Spring.Context.Support.ContextRegistry">
+      <Item value="RegisterContext`0" priority="26" />
+      <Item value="GetContext`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Context.IConfigurableApplicationContext">
+      <Item value="ObjectFactory" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Objects.Factory.Config.IConfigurableListableObjectFactory">
+      <Item value="RegisterObjectDefinition`0" priority="99" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Context.IApplicationContext">
+      <Item value="ConfigureObject`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Context.Attributes.IAssemblyTypeScanner">
+      <Item value="IncludeType`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Context.Support.CodeConfigApplicationContext">
+      <Item value="ConfigureObject`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Context.Support.GenericApplicationContext">
+      <Item value="Scan`0" priority="26" />
+      <Item value="ScanWithTypeFilter`0" priority="22" />
+      <Item value="ConfigureObject`0" priority="26" />
+      <Item value="RegisterObjectDefinition`0" priority="26" />
+      <Item value="GetObject`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="AssemblyQualifiedName" priority="26" />
+      <Item value="Name" priority="107" />
+      <Item value="GetInterfaces`0" priority="26" />
+      <Item value="GetType`0" priority="26" />
+      <Item value="IsClass" priority="26" />
+      <Item value="FullName" priority="26" />
+      <Item value="GetProperties`0" priority="26" />
+      <Item value="GetMembers`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="FullName" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="StartsWith`0" priority="80" />
+      <Item value="Length" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AppDomain">
+      <Item value="CurrentDomain" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.AppDomain">
+      <Item value="GetAssemblies`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Where`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.AutoRegistration.Impl.RegistrationEntry">
+      <Item value="RegisterIfSatisfiesFilter`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.AutoRegistration.IAutoRegistration">
+      <Item value="Include`0" priority="134" />
+      <Item value="Register`0" priority="26" />
+      <Item value="ApplyAutoRegistration`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Spring.AutoRegistration.Then">
+      <Item value="Register`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Spring.AutoRegistration.If">
+      <Item value="Any`0" priority="27" />
+      <Item value="ImplementsITypeName`0" priority="27" />
+      <Item value="Implements`1" priority="27" />
+      <Item value="Is`1" priority="27" />
+      <Item value="DecoratedWith`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Objects.Factory.Support.ObjectDefinitionBuilder">
+      <Item value="ObjectDefinition" priority="107" />
+      <Item value="SetAutowireMode`0" priority="26" />
+      <Item value="AddPropertyReference`0" priority="49" />
+      <Item value="SetSingleton`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.AutoRegistration.IFluentRegistration">
+      <Item value="AsSingleton`0" priority="27" />
+      <Item value="UsingSingleton`0" priority="26" />
+      <Item value="WithTypeName`0" priority="26" />
+      <Item value="WithName`0" priority="53" />
+      <Item value="UsingPrototype`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="StackTrace" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.AutoRegistration.FluentRegistration">
+      <Item value="AsSingleton`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Spring.Objects.Factory.Support.AutowireUtils">
+      <Item value="IsSetterDefinedInInterface`0" priority="26" />
+      <Item value="CreateAutowireCandidateResolver`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentAssertions.Primitives.ObjectAssertions">
+      <Item value="BeNull`0" priority="26" />
+      <Item value="NotBeNull`0" priority="22" />
+      <Item value="Equals`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.AutoRegistration.Test.Example.Bar">
+      <Item value="Foo" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
+      <Item value="GetProperty" priority="26" />
+      <Item value="SetProperty" priority="26" />
+      <Item value="Public" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="Name" priority="26" />
+      <Item value="CanWrite" priority="26" />
+      <Item value="GetType`0" priority="26" />
+      <Item value="Attributes" priority="26" />
+      <Item value="GetCustomAttributes`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="Equals`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.AutoRegistration.Test.Example.IFoo">
+      <Item value="Should`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Context.Support.AbstractApplicationContext">
+      <Item value="ConfigureObject`0" priority="26" />
+      <Item value="Refresh`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Objects.Factory.Support.AbstractObjectDefinition">
+      <Item value="IsPrototype" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MemberInfo">
+      <Item value="MemberType" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AttributeTargets">
+      <Item value="Property" priority="26" />
+      <Item value="Method" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentMappingsContainer">
+      <Item value="AddFromAssembly`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentConfiguration">
+      <Item value="Database`0" priority="54" />
+      <Item value="BuildSessionFactory`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Cfg.Configuration">
+      <Item value="SetProperties`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Context.ICurrentSessionContext">
+      <Item value="CurrentSession`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcContrib.UI.InputBuilder.Views.PropertyViewModel">
+      <Item value="PropertyIsRequired" priority="27" />
+      <Item value="Label" priority="26" />
+      <Item value="Name" priority="53" />
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="display" priority="0" />
+      <Item value="none" priority="1" />
+      <Item value="clear" priority="0" />
+      <Item value="both" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="alert" priority="32" />
+      <Item value="var" priority="43" />
+      <Item value="if" priority="21" />
+      <Item value="$" priority="29" />
+      <Item value="else" priority="21" />
+      <Item value="content" priority="32" />
+      <Item value="result" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Web.EntityModel`1">
+      <Item value="Value" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Documents.Web.Models.DocumentEntityModel">
+      <Item value="Value" priority="81" />
+      <Item value="Edit" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="Get`0" priority="26" />
+      <Item value="QueryOver`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentValidation.IRuleBuilderInitial`2">
+      <Item value="NotNull`2" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentValidation.IRuleBuilderOptions`2">
+      <Item value="NotEqual`2" priority="26" />
+      <Item value="NotEmpty`2" priority="22" />
+      <Item value="Length`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Web.Models.EntityModel`1">
+      <Item value="Index" priority="53" />
+      <Item value="Value" priority="81" />
+      <Item value="Selected" priority="50" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Web.Extensions.Input.InputBuilder`2">
+      <Item value="Type" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Web.Extensions.Input.InputBuilder">
+      <Item value="Equals`0" priority="26" />
+      <Item value="Id" priority="26" />
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.Expressions.Expression`1">
+      <Item value="Compile`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.ExpressionHelper">
+      <Item value="GetExpressionText`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcContrib.UI.InputBuilder.InputSpecification.IInputSpecification`1">
+      <Item value="Required`0" priority="26" />
+      <Item value="Label`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI.DataBinder">
+      <Item value="GetPropertyValue`0" priority="27" />
+      <Item value="Eval`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContextQualified">
+      <Item value="find" priority="8" />
+      <Item value="size" priority="17" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="IsAjaxRequest`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int64">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:">
+      <Item value="Id" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Naskar.Architecture.Web.Models.ListModel`1">
+      <Item value="GetSelected`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="nUnit" Id="Spring.AutoRegistration.Test.TestAutoRegistration" type="NUnitTestFixtureElement" Project="EC17E442-6AFB-494B-AE4A-2A5BD6BA9FAD" />
+        <UnitTestElement Provider="nUnit" Id="Spring.AutoRegistration.Test.TestAutoRegistration.RegisterITypeName" ParentId="Spring.AutoRegistration.Test.TestAutoRegistration" type="NUnitTestElement" TypeName="Spring.AutoRegistration.Test.TestAutoRegistration" MethodName="RegisterITypeName" Project="EC17E442-6AFB-494B-AE4A-2A5BD6BA9FAD" />
+        <UnitTestElement Provider="nUnit" Id="Spring.AutoRegistration.Test.TestAutoRegistration.RegisterITypeNameAsSingleton" ParentId="Spring.AutoRegistration.Test.TestAutoRegistration" type="NUnitTestElement" TypeName="Spring.AutoRegistration.Test.TestAutoRegistration" MethodName="RegisterITypeNameAsSingleton" Project="EC17E442-6AFB-494B-AE4A-2A5BD6BA9FAD" />
+        <UnitTestElement Provider="nUnit" Id="Spring.AutoRegistration.Test.TestAutoRegistration.RegisterPropertiesByName" ParentId="Spring.AutoRegistration.Test.TestAutoRegistration" type="NUnitTestElement" TypeName="Spring.AutoRegistration.Test.TestAutoRegistration" MethodName="RegisterPropertiesByName" Project="EC17E442-6AFB-494B-AE4A-2A5BD6BA9FAD" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
+</Configuration>

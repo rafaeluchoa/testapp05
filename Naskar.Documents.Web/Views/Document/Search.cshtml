@@ -1,0 +1,56 @@
+﻿@using MvcContrib.UI.Grid
+@using Naskar.Documents.Web.Models
+@using Naskar.Architecture.Web.Extensions.AjaxBind
+@using Naskar.Architecture.Web.Extensions
+@using Microsoft.Web.Mvc
+@using Naskar.Architecture.Web.Models
+@using Naskar.Documents.Domain
+
+@model DocumentListModel
+           
+@{
+    const string SearchId = "document-search";
+    ViewBag.Title = "Documents";
+
+    ViewBag.SearchId = SearchId;
+    Layout = "~/Views/Shared/_Search.cshtml";
+}
+
+@section Fields {
+    @Html.Input(x => x.VO.Name, label: "Name", required: true)
+}
+
+@section SearchActions {
+    @Html.Button(SearchId + "-search-action", "Search", Url.Action("Search"), SearchId)
+}
+
+@section Actions {
+    @Html.ActionLink("New", "Add")
+}
+
+@section Grid {
+
+    @Html.Grid(Model.Documents).Columns(c =>
+{
+    c.For(x => Selecao(x));
+    c.For(x => x.Value.Id).Named("Id");
+    c.For(x => x.Value.Name).Named("Name");
+    c.For(x => Html.ActionLink("Edit", "Edit", new { id = x.Value.Id.ToString() }));
+})
+
+    @helper Selecao(EntityModel<Document> entityModel)
+    {
+        @Html.CheckBox(Html.NameFor(x => x.Documents[entityModel.Index].Selected).ToString(), entityModel.Selected);
+        @Html.Hidden(Html.NameFor(x => x.Documents[entityModel.Index].Value.Id).ToString(), entityModel.Value.Id);
+        @Html.Hidden(Html.NameFor(x => x.Documents[entityModel.Index].Value.Version).ToString(), entityModel.Value.Version);
+    }
+
+}
+
+@section GridActions {
+    @Html.Button(SearchId + "-remove-action", "Remove", Url.Action("Remove"), SearchId)
+}
+
+
+
+    
